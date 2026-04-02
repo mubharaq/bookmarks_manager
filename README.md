@@ -43,6 +43,7 @@ This means every Riverpod pattern in this app is exercised against a real networ
 lib/
 ├── app/
 │   ├── providers/          # App coordination layer (auth state, push notifications, settings)
+│   ├── config/             # App configuration
 │   └── routing/            # Go Router + typed routes via go_router_builder
 ├── data/
 │   ├── repositories/       # Network calls, response parsing, Result<T> wrapping
@@ -56,7 +57,7 @@ lib/
     └── features/           # Screen-level code, each with its own viewmodel
 ```
 
-The rule is simple: UI never reaches into `data/` directly. Everything the UI needs goes through `app/providers/` (coordination) or the feature's own viewmodel. Repositories exist to serve the coordination layer.
+This is an opinionated structure that i have found to work well for my use cases.
 
 ---
 
