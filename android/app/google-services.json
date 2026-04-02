@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "260972720505",
+    "project_id": "bookmarks-manager-c14ee",
+    "storage_bucket": "bookmarks-manager-c14ee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260972720505:android:961d12ada3926044ecffa8",
+        "android_client_info": {
+          "package_name": "com.bookmarks.manager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2uKSDFOzA7AV0jPkhthC4q3Tnms7hrQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
