@@ -41,7 +41,7 @@ dev_dependencies:
   flutter_gen_runner: any
   flutter_test:
     sdk: flutter
-  go_router_builder: any
+  go_router_builder: 4.2.1
   json_serializable: ^6.13.0
   mocktail: ^1.0.4
   riverpod_generator: ^4.0.3
